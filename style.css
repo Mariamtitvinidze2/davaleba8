@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 1920px;
+    height: 1080px;
+    border: 16px solid #D8D8D8;
+    background: #EEE;
+    border: 16px solid #D8D8D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+.div1 {
+    width: 360px;
+    height: 528px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+    
+    
+    }
+
+   
+
+.firstdiv {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+ 
+
+.personalpiza {
+    color: var(--Heading-text, #081F32);
+    width: 198px;
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    letter-spacing: 0.24px;
+    
+    
+    
+    
+}
+
+.text1 {
+    color: var(--Additional-text, #6E798C);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    
+}
+
+.text2 {
+     display: flex;
+     gap: 43px;
+}
+
+.text3 {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.p1 {
+    
+    color: var(--Cards-3-main-button, #F8593B);
+    font-family: "DM Serif Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    text-decoration: line-through;
+    
+}
+
+.p5 {
+    color: var(--Heading-text, #081F32);
+    font-family: "DM Serif Display";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.p2 {
+    color: var(--Cards-4-info-text, #A5ADBB);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; 
+}
+
+.p3 {
+    color: var(--Cards-4-info-text, #A5ADBB);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; 
+}
+
+.p4 {
+    color: var(--Cards-4-info-text, #A5ADBB);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; 
+}
+
+.div2 {
+    width: 360px;
+    height: 528px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+    
+}
+
+.seconddiv {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.Tortellini2 {
+    color: var(--Heading-text, #081F32);
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    letter-spacing: 0.24px;
+}
+
+.text4 {
+    color: var(--Additional-text, #6E798C);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.text5 {
+    display: flex;
+    gap: 43px;
+}
+
+.text6 {
+    display: flex;
+    gap: 20px;
+}
+
+.p6 {
+    color: var(--Cards-4-info-text, #A5ADBB);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; 
+}
+
+.p7 {
+    color: var(--Cards-4-info-text, #A5ADBB);
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; 
+}
+
+.p8 {
+    color: var(--Cards-4-info-text, #A5ADBB);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; 
+}
+
+.p9 {
+    color: var(--Heading-text, #081F32);
+    font-family: "DM Serif Display";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.p10 {
+    color: var(--Cards-3-main-button, #F8593B);
+    font-family: "DM Serif Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    text-decoration: line-through;
+}
+
+
+.piza {
+    width: 360px;
+    height: 216px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+
+}
+
+.div3 {
+    width: 360px;
+    height: 528px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+
+}
+
+.threediv {
+    padding: 20px;
+}
+
+.cake {
+    color: var(--Heading-text, #081F32);
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    letter-spacing: 0.24px;
+}
+
+.text7 {
+    color: var(--Additional-text, #6E798C);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.text8 {
+    display: flex;
+    gap: 42px;
+}
+
+.text9 {
+    display: flex;
+    gap: 20px;
+}
+
+.p11 {
+    color: var(--Cards-4-info-text, #A5ADBB);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.p12 {
+    color: var(--Cards-4-info-text, #A5ADBB);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+.p13 {
+    color: var(--Cards-4-info-text, #A5ADBB);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.p14 {
+    color: var(--Heading-text, #081F32);
+    font-family: "DM Serif Display";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.p15 {
+    color: var(--Cards-3-main-button, #F8593B);
+    font-family: "DM Serif Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    text-decoration: line-through;
+
+}
